@@ -27,14 +27,17 @@ Future Enhancements
 Contact
 
 1. Project Overview
+2. 
 This project involves an in-depth data analysis of OLA booking data to extract meaningful insights that can help improve service efficiency, customer satisfaction, and operational performance. By leveraging Python (Pandas, NumPy) for data cleaning and manipulation, and SQL for querying, along with Power BI for interactive visualizations, this analysis aims to transform raw booking information into actionable intelligence.
 
 Goal: To identify key trends, operational bottlenecks, customer behavior patterns, and cancellation reasons to support data-driven decision-making for OLA.
 
 2. Business Questions & Objectives
+3. 
 The primary objectives of this project are to answer critical business questions related to ride bookings, cancellations, customer and driver behavior, and operational metrics.
 
 SQL Analysis Questions:
+
 The following insights were extracted using SQL queries on the cleaned dataset:
 
 Retrieve all successful bookings.
@@ -58,6 +61,7 @@ Calculate the total booking value of rides completed successfully.
 List all incomplete rides along with the reason.
 
 Power BI Visualization Objectives:
+
 The following dashboards and visualizations were created using Power BI to present insights interactively:
 
 Ride Volume Over Time
@@ -81,6 +85,7 @@ Driver Ratings Distribution
 Customer vs. Driver Ratings
 
 3. Dataset
+4. 
 The project utilizes a dataset containing OLA ride booking information. The dataset includes 100,000 entries with 20 columns providing details about dates, times, booking specifics, customer and driver information, ride metrics, and cancellation details.
 
 Key Columns:
@@ -128,6 +133,7 @@ Driver_Ratings: Ratings given by customers to drivers.
 Customer_Rating: Ratings given by drivers to customers.
 
 4. Data Cleaning & Preprocessing
+
 The initial dataset required significant cleaning to ensure data quality and integrity for analysis. The following steps were performed:
 
 Handling Missing Values:
@@ -145,12 +151,15 @@ Data Type Conversion: Ensured Date and Time columns were parsed correctly for da
 Data Consistency: Addressed minor inconsistencies where necessary (e.g., specific Payment_Method entries, though not detailed in the provided df.info output, were assumed to be handled based on project requirements).
 
 5. Analysis & Insights (SQL Questions)
+
 SQL queries were executed against the cleaned dataset (imported into MySQL) to derive specific insights. The .sql files in the sql_queries/ directory contain the precise queries used to answer the business questions listed in Section 2.
 
-6. Visualizations (Power BI Questions)
+7. Visualizations (Power BI Questions)
+
 Interactive dashboards and reports were developed in Power BI to visually represent the findings and facilitate exploration. The Power BI .pbix file is located in the powerbi_reports/ directory. These visualizations address the objectives outlined in Section 2, providing a dynamic view of the data.
 
-7. Tools & Technologies
+9. Tools & Technologies
+
 The following tools and libraries were used in this project:
 
 Data Manipulation & Cleaning:
@@ -180,18 +189,31 @@ Git: Distributed version control system.
 GitHub: Web-based platform for Git repositories.
 
 8. Project Structure
+
 ├── OLA_Data_Analysis_Project/
-│   ├── main.ipynb                  # Jupyter Notebook with Python data cleaning & analysis code
+
+│   ├── main.ipynb
+
 │   ├── OLA_Booking_Data/
-│   │   └── booking_data.csv        # Original raw dataset
-│   │   └── booking_data_cleaned.csv# Cleaned dataset after Python preprocessing
+
+│   │   └── booking_data.csv 
+
+│   │   └── booking_data_cleaned.csv
+
 │   ├── sql_queries/
-│   │   └── analyze_bookings.sql    # SQL queries for analysis questions
+
+│   │   └── analyze_bookings.sql 
+
 │   ├── powerbi_reports/
-│   │   └── OLA_Dashboard.pbix      # Power BI project file
-│   └── README.md                   # This README file
-└── .gitignore                      # Specifies intentionally untracked files to ignore
-9. How to Use
+
+│   │   └── OLA_Dashboard.pbix   
+
+│   └── README.md            
+
+└── .gitignore   
+
+10. How to Use
+11. 
 To explore this project:
 
 Clone the repository:
@@ -199,7 +221,9 @@ Clone the repository:
 Bash
 
 git clone https://github.com/Abhijeeth7/Ola-Data-Analysis.git
+
 cd Ola-Data-Analysis
+
 Data Preparation (Python):
 
 Ensure you have Python and necessary libraries (pandas, numpy) installed.
@@ -233,6 +257,7 @@ Refresh the data source connection (you might need to point it to your MySQL tab
 Explore the interactive dashboards.
 
 10. Future Enhancements
+
 Advanced Predictive Modeling: Implement machine learning models to predict ride cancellations or driver availability.
 
 Geospatial Analysis: Utilize pickup/drop-off coordinates (if available) for more detailed route optimization or demand hot-spot analysis.
