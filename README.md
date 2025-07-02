@@ -191,15 +191,25 @@ Interactive dashboards and reports were developed in Power BI to visually repres
 **8. Project Structure**
 
 ├── OLA_Data_Analysis_Project/
+
 │   ├── main.ipynb
+
 │   ├── OLA_Booking_Data/
+
 │   │   └── booking_data.csv 
+
 │   │   └── booking_data_cleaned.csv
+
 │   ├── sql_queries/
+
 │   │   └── analyze_bookings.sql 
+
 │   ├── powerbi_reports/
+
 │   │   └── OLA_Dashboard.pbix   
+
 │   └── README.md            
+
 └── .gitignore   
 
 **9. How to Use**
