@@ -27,13 +27,13 @@ Future Enhancements
 Contact
 
 1. Project Overview
-2. 
+
 This project involves an in-depth data analysis of OLA booking data to extract meaningful insights that can help improve service efficiency, customer satisfaction, and operational performance. By leveraging Python (Pandas, NumPy) for data cleaning and manipulation, and SQL for querying, along with Power BI for interactive visualizations, this analysis aims to transform raw booking information into actionable intelligence.
 
 Goal: To identify key trends, operational bottlenecks, customer behavior patterns, and cancellation reasons to support data-driven decision-making for OLA.
 
 2. Business Questions & Objectives
-3. 
+
 The primary objectives of this project are to answer critical business questions related to ride bookings, cancellations, customer and driver behavior, and operational metrics.
 
 SQL Analysis Questions:
@@ -85,7 +85,7 @@ Driver Ratings Distribution
 Customer vs. Driver Ratings
 
 3. Dataset
-4. 
+
 The project utilizes a dataset containing OLA ride booking information. The dataset includes 100,000 entries with 20 columns providing details about dates, times, booking specifics, customer and driver information, ride metrics, and cancellation details.
 
 Key Columns:
