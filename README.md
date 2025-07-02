@@ -60,9 +60,9 @@ Calculate the total booking value of rides completed successfully.
 
 List all incomplete rides along with the reason.
 
-Power BI Visualization Objectives:
+**Power BI Visualization Objectives**:
 
-The following dashboards and visualizations were created using Power BI to present insights interactively:
+**The following dashboards and visualizations were created using Power BI to present insights interactively**:
 
 Ride Volume Over Time
 
